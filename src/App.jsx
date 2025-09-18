@@ -5,6 +5,7 @@ import Login from "./pages/Login/Login"
 import Player from './pages/Player/Player'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase'
+import MyList from './pages/Mylist/MyList'
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/' element={ <Home/>}/>
           <Route path='/login' element={ <Login/>}/>
            <Route path='/player/:id' element={ <Player/>}/>
+           <Route path='/list' element={<MyList/>}/>
 
      
       </Routes>

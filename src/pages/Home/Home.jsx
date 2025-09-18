@@ -34,7 +34,7 @@ const Home = () => {
       <div className="more-cards">
         <TitleCards title={"Popular"}  category={"popular"} type={"movie"}/> 
          <TitleCards title={"Top Rated"} category={"top_rated"} type={"movie"}/> 
-          <TitleCards title={"Popular"}  category={"popular"} type={"movie"}/> 
+          <TitleCards title={"Popular"}  category={"popular"} type={"series"}/> 
            <TitleCards title={"Top Rated"} category={"top_rated"} type={"movie"}/> 
       </div>
       <Footer/>

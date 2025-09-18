@@ -30,3 +30,14 @@
     color: #fff;
 
 }
+.button{
+      margin-top: 30px;
+  padding: 8px 12px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  font-weight: 500;
+}

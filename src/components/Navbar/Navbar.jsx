@@ -12,19 +12,19 @@ import { logout } from '../../firebase'
 const Navbar = () => {
   const navRef=useRef();
 
-useEffect(()=>{
+// useEffect(()=>{
 
-  window.addEventListener('scroll',()=>{
-    if(window.scrollY>=80){
-      navRef.current.classList.add('nav-dark')
-    }
-    else{
-      navRef.current.classList.remove('nav-dark')
-    }
-  })
+//   window.addEventListener('scroll',()=>{
+//     if(window.scrollY>=80){
+//       navRef.current.classList.add('nav-dark')
+//     }
+//     else{
+//       navRef.current.classList.remove('nav-dark')
+//     }
+//   })
 
 
-},[])
+// },[])
 
   return (
     <div className='navbar' ref={navRef}>
@@ -35,7 +35,7 @@ useEffect(()=>{
                 <li>TV Shows</li>
                 <li>Movies</li>
                 <li>New & Popular</li>
-                <li>My List</li>
+                <Link to='/list'>My List</Link>
                 <li> Browse by Languages</li>
 
             </ul>
