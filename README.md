@@ -10,8 +10,7 @@ Movie data is fetched in real-time from the **TMDB (The Movie Database) API**, a
 - 🎥 **Browse Movies:** Fetches and displays trending, top-rated, and category-based movies from TMDB API.  
 - 💖 **Add to Wishlist:** Users can save favorite movies to their personal wishlist using Firebase.  
 - 🔍 **Search Functionality:** Quickly find movies by title.  
-- 🔐 **User Authentication (Optional):** Secure sign-in and sign-out using Firebase Auth.  
-- 💻 **Responsive Design:** Optimized for all screen sizes — desktop, tablet, and mobile.  
+- 🔐 **User Authentication :** Secure sign-in and sign-out using Firebase Auth.  
 - ⚡ **Real-time Updates:** Wishlist updates instantly with Firebase’s real-time database.
 
 ---
