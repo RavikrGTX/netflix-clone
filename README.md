@@ -21,7 +21,7 @@ Movie data is fetched in real-time from the **TMDB (The Movie Database) API**, a
 **Frontend:**  
 - React.js  
 - React Router  
-- CSS / Tailwind CSS (if used)
+- CSS 
 
 **Backend / Database:**  
 - Firebase (Authentication + Firestore Database)
