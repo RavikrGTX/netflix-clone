@@ -1,12 +1,32 @@
-# React + Vite
+# 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured **Netflix Clone** built with **React.js** that allows users to browse, view, and save movies to their wishlist.  
+Movie data is fetched in real-time from the **TMDB (The Movie Database) API**, and user wishlists are managed using **Firebase**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎥 **Browse Movies:** Fetches and displays trending, top-rated, and category-based movies from TMDB API.  
+- 💖 **Add to Wishlist:** Users can save favorite movies to their personal wishlist using Firebase.  
+- 🔍 **Search Functionality:** Quickly find movies by title.  
+- 🔐 **User Authentication (Optional):** Secure sign-in and sign-out using Firebase Auth.  
+- 💻 **Responsive Design:** Optimized for all screen sizes — desktop, tablet, and mobile.  
+- ⚡ **Real-time Updates:** Wishlist updates instantly with Firebase’s real-time database.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- React.js  
+- React Router  
+- CSS / Tailwind CSS (if used)
+
+**Backend / Database:**  
+- Firebase (Authentication + Firestore Database)
+
+**API Integration:**  
+- TMDB API (for fetching movie data)
+
+---
